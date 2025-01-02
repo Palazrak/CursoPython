@@ -12,8 +12,8 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
     - Instalación de Python (Conda)
 2. Python Básico
     - Tipos de datos nativos en Python
+    - User inputs
     - Condiciones lógicas e "if statements"
-      - User inputs
     - Estructuras de datos nativas
       - Listas
       - Tuplas
