@@ -6,7 +6,7 @@ En esta sección se planea implementar tanto las notas de la sección como ejerc
 
 ## 2.1. Variables y manejo de memoria
 
-Pensémoslo de la forma mas sencilla posible. Al programar, nosotros asignamos nombres a objetos para que sea más fácil para nosotros trabajar con esos objetos. Un objeto puede ser muchas cosas: una instancia de una clase, un tipo primitivo, una estructura de datos, etc. (Más adelante entraremos en detalles de todas las palabras nuevas que acabo de utilizar). 
+Pensémoslo de la forma mas sencilla posible. Al programar, nosotros asignamos nombres a objetos para que sea más fácil para nosotros trabajar con esos objetos. Un objeto puede ser muchas cosas: una instancia de una clase, un tipo primitivo, una estructura de datos, etc. (Más adelante entraremos en detalles de todas las palabras nuevas que acabo de utilizar).
 
 Al nosotros asignarle un nombre a un objeto, estamos creando una **variable**. Esta variable va a almacenarse en la memoria de la computadora (Python lo hace automáticamente por nosotros). Por ejemplo, si yo tomo el siguiente codigo:
 
@@ -83,6 +83,7 @@ nombre = "Juan"
 apellido = "Escutia"
 print(f{"¡Hola, {nombre} {apellido}!"})
 ```
+
 > ¡Hola, Juan Escutia!
 
 ## 2.3. User inputs
@@ -95,7 +96,12 @@ nombre = input("Ingrese el nombre")
 
 Lo que está haciendo el código anterior es que está imprimiendo en la terminal el mensaje "ingrese el nombre" y permite que el usuario teclee cualquier cosa. Al dar `enter`, lo que haya ingresado el usuario se guardará en la variable `nombre`, con la que después podrás trabajar.
 
-Es importante notar que, como mencioné, así como está el código, el usuario podría ingresar cualquier cosa: un número, una frase que no sea un nombre o incluso no ingresar nada. Todo esto será necesario manejarlo correctamente utilizando if statements
+Es importante notar que, como mencioné, así como está el código, el usuario podría ingresar cualquier cosa: un número, una frase que no sea un nombre o incluso no ingresar nada. Todo esto será necesario manejarlo correctamente utilizando if statements. Además, cualquier input del usuario será considerado como String por default. Si estás ingresando un número, puedes cambiarle el tipo después.
+
+```python
+numero = input("Dame un número")
+numero = int(numero)
+```
 
 ## 2.4. Condiciones lógicas e "if statements"
 
@@ -110,3 +116,5 @@ Es importante notar que, como mencioné, así como está el código, el usuario 
 ### 2.5.4. Diccionarios
 
 ## 2.6. Ciclos "for" y "while"
+
+## 2.7. Lectura de archivos

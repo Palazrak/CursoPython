@@ -17,13 +17,13 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
     - Condiciones lógicas e "if statements"
     - Estructuras de datos nativas
     - Ciclos "for" y "while"
+    - Lectura de archivos
 3. Funciones y Clases
-4. Lectura de archivos
-5. Introducción a NumPy y Pandas
+4. Introducción a NumPy y Pandas
     - Arreglos en NumPy y computación vectorizada
     - Dataframes en Pandas
-6. Limpieza de datos y "Data Wrangling"
-7. Visualización de datos usando Matplotlib y Seaborn
+5. Limpieza de datos y "Data Wrangling"
+6. Visualización de datos usando Matplotlib y Seaborn
 
 ## Estructura del repositorio
 
