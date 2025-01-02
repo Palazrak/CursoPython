@@ -11,14 +11,11 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
     - Cuándo usar Python
     - Instalación de Python (Conda)
 2. Python Básico
+    - Variables y manejo de memoria
     - Tipos de datos nativos en Python
     - User inputs
     - Condiciones lógicas e "if statements"
     - Estructuras de datos nativas
-      - Listas
-      - Tuplas
-      - Conjuntos
-      - Diccionarios
     - Ciclos "for" y "while"
 3. Funciones y Clases
 4. Lectura de archivos
@@ -31,6 +28,16 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
 ## Estructura del repositorio
 
 Habrá dos carpetas principales, llamadas `notas` y `código`. En la sección de `notas`, aparecerán documentos como éste explicando cosas importantes para cada sección, mientras que en la sección de `código` aparecerán notebooks de código para ir siguiendo a lo largo del curso.
+
+## Convenciones en este repositorio
+
+Al hablar de código y de el output que se produce, se utilizará el siguiente formato:
+
+```python
+# Aqui se ingresará el código
+```
+
+> Y así se verá el output del código
 
 ## Bibliografía
 
