@@ -12,7 +12,7 @@ Al nosotros asignarle un nombre a un objeto, estamos creando una **variable**. E
 
 ```python
 a = 0
-b = "Hola
+b = "Hola"
 ```
 
 Lo que estoy haciendo es crear variables `a` y `b` y almacenar en memoria los valores `0` y `"hola"` respectivamente. Esto nos va a permitir que, si nosotros queremos hacer operaciones sobre esas variables, podamos solo hacer referencias a esos nombres, sin tener que indicarle a la computadora a qué espacios de la memoria acceder para hacer las operaciones.
@@ -57,6 +57,8 @@ También están definidas operaciones "bitwise", como AND (`a & b`), OR (`a | b`
 
 Para valores booleanos, están definidas las siguientes operaciones
 
+| Operación | Descripción                    |
+| ------------- | ------------------------------ |
 | a == b      | Arroja `True` si `a` es igual a `b`       |
 | a != b      | Arroja `True` si `a` es diferente a `b` |
 | a `is` b      | Arroja `True` si `a` y `b` están referenciados al mismo objeto|
