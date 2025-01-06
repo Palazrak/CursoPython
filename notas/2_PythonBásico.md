@@ -17,9 +17,9 @@ b = "Hola"
 
 Lo que estoy haciendo es crear variables `a` y `b` y almacenar en memoria los valores `0` y `"hola"` respectivamente. Esto nos va a permitir que, si nosotros queremos hacer operaciones sobre esas variables, podamos solo hacer referencias a esos nombres, sin tener que indicarle a la computadora a qué espacios de la memoria acceder para hacer las operaciones.
 
-## 2.2. Tipos de datos nativos en Python
+## 2.2. Tipos de datos primitivos en Python
 
-Python tiene un pequeño conjunto de tipos de datos nativos para manejar datos numéricos, cadenas de caracteres, valores booleanos y fechas. Normalmente a estos tipos de datos se les llama `escalares` (ignorando la noción de "escalar" en álgebra lineal).
+Python tiene un pequeño conjunto de tipos de datos primitivos para manejar datos numéricos, cadenas de caracteres, valores booleanos y fechas. Normalmente a estos tipos de datos se les llama `escalares` (ignorando la noción de "escalar" en álgebra lineal).
 
 Los principales tipos escalares son:
 
@@ -104,6 +104,73 @@ numero = int(numero)
 ```
 
 ## 2.4. Condiciones lógicas e "if statements"
+
+Las condiciones lógicas y los if statements son una parte esencial de cualquier lenguaje de programación, incluido Python. Nos permiten tomar decisiones en el código basándonos en ciertos criterios, haciendo que el programa sea dinámico y pueda reaccionar a diferentes situaciones.
+
+### 2.4.1. Condiciones lógicas
+
+Las condiciones lógicas son expresiones que se evalúan como True (verdadero) o False (falso). Estas expresiones se construyen utilizando operadores lógicos y relacionales.
+
+| Operadores Relacionales | Descripción                    |
+| ------------- | ------------------------------ |
+|  == (igual) | Verifica si dos valores son iguales |
+| != (diferente)     | Verifica si dos valores son diferentes|
+| > (mayor que)      | Verifica si el primer valor es mayor que el otro |
+| >= (mayor o igual que)      | Verifica si el primer valor es mayor o igual que el otro |
+| < (menor que)      | Verifica si el primer valor es menor que el otro |
+| <= (menor o igual que)      | Verifica si el primer valor es menor o igual que el otro |
+
+| Operadores Lógicos | Descripción                    |
+| ------------- | ------------------------------ |
+|  `and` | Devuelve True si ambas condiciones son verdaderas |
+| `or`   | Devuelve True si al menos una condición es verdadera|
+| `not`    | Invierte el valor lógico |
+
+### 2.4.2. If statements
+
+Los "if statements" son estructuras que permiten que el programa tome decisiones basadas en condiciones lógicas. En Python, se usa la palabra reservada `if` para definirlos.
+
+La sintaxis básica es:
+
+```python
+if condición:
+    # Código a ejecutar si la condición es verdadera
+```
+
+Por ejemplo, supongamos que se le solicita al usuario ingresar su edad para detemrinar si es mayor de edad o no. Un ejemplo de uso de un if simple es:
+
+```python
+if edad >= 18:
+    print("Eres mayor de edad")
+```
+
+Es muy importante notar que, para que el intérprete de Python ejecute correctamente el código, debe haber una sangría para denotar qué cae dentro de cada if. Esta sangría se acostumbra a hacer con un tab sencillo, mientras que otras personas lo hacen con 4 espacios. Lo importante es que **no se pueden mezclar tabs y espacios**, así que elige solo uno.
+
+Como extensiones de los "if statements", también se tienen las palabras reservadas `elif` y `else`. Esto es importante cuando nuestro proceso se separe dependiendo de si la condición es verdadera o falsa. Por ejemplo, si yo quiero ver cuál es el número más alto entre dos opciones para posteriormente imprimirlo, es necesario el uso de `if` y de `else` para contemplar completamente todos los casos posibles.
+
+```python
+# Suponiendo que ya están definidos valores `a` y `b`
+if a > b:
+    print(a)
+else:
+    print(b) 
+```
+
+Por último, hablemos de las diferencias entre `elif` y `else`. `elif` se usa para comprobar condiciones adicionales si la condición inicial del if no se cumple. Es útil cuando tienes múltiples caminos posibles. Por otro lado, `else` se usa como una opción por defecto si todas las condiciones anteriores son falsas. Es como un "cajón de seguridad" que asegura que siempre haya un resultado.
+
+Aquí un pequeño ejemplo que incorpora el uso de `if`, `elif` y `else` para imprimir mensajes distintos dependiendo del intervalo en el que caiga cierto valor:
+
+```python
+# Suponiendo una variable "nota" que represente una calificación:
+if nota >= 90:
+    print("Excelente")
+elif nota >= 70:
+    print("Aprobado")
+elif nota >= 50:
+    print("Necesita mejorar")
+else:
+    print("Reprobado")
+```
 
 ## 2.5. Estructuras de datos nativas de Python
 

@@ -12,7 +12,7 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
     - Instalación de Python (Conda)
 2. Python Básico
     - Variables y manejo de memoria
-    - Tipos de datos nativos en Python
+    - Tipos de datos primitivos en Python
     - User inputs
     - Condiciones lógicas e "if statements"
     - Estructuras de datos nativas
