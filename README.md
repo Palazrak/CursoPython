@@ -15,8 +15,8 @@ Este es el repositorio con el contenido de este curso de introducción a Python.
     - Tipos de datos primitivos en Python
     - User inputs
     - Condiciones lógicas e "if statements"
-    - Estructuras de datos nativas
     - Ciclos "for" y "while"
+    - Estructuras de datos nativas
     - Lectura de archivos
 3. Funciones y Clases
 4. Introducción a NumPy y Pandas
