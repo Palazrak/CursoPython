@@ -311,7 +311,7 @@ while condición:
     # Código a ejecutar mientras la condición sea True
 ```
 
-Un ciclo while se usa cuando no sabes cuántas veces se repetirá el ciclo, pero tienes una condición que determinará cuándo debe detenerse. 
+Un ciclo while se usa cuando no sabes cuántas veces se repetirá el ciclo, pero tienes una condición que determinará cuándo debe detenerse.
 
 ### 2.6.3. Consideraciones adicionales
 

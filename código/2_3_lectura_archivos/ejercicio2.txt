@@ -1,0 +1,5 @@
+Ana,25,Ingeniera
+Luis,30,Doctor
+María,22,Estudiante
+Carlos,28,Abogado
+Laura,26,Diseñadora
