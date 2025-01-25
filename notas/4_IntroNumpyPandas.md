@@ -75,7 +75,7 @@ Quizá al trabajar con poca cantidad de elementos, la ganancia en tiempo de ejec
 
 **Pandas** es una biblioteca de Python diseñada para el análisis y manipulación de datos. Es una herramienta poderosa y flexible que permite trabajar fácilmente con datos tabulares y estructurados. Pandas se basa en NumPy, lo que la hace rápida y eficiente, y es ampliamente utilizada en ciencia de datos, análisis de datos y aprendizaje automático.
 
-Pandas fue creado específicamente para facilitar en análisis de datos tabulares (como tablas de excel o tablas en bases de datos relacionales) ofreciendo funciones para filtrar, agrupar, pivotar y limpiar datos, entre otras. Puede leer y escribir datos desde múltiples formatos (csv, excel, json, etc.) y ofrece operaciones rápidas y optimizadas para datos grandes, aprovechando las capacidades de NumPy. 
+Pandas fue creado específicamente para facilitar en análisis de datos tabulares (como tablas de excel o tablas en bases de datos relacionales) ofreciendo funciones para filtrar, agrupar, pivotar y limpiar datos, entre otras. Puede leer y escribir datos desde múltiples formatos (csv, excel, json, etc.) y ofrece operaciones rápidas y optimizadas para datos grandes, aprovechando las capacidades de NumPy.
 
 ### 4.2.2. Principales estructuras de datos en Pandas
 
